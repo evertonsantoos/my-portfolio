@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/icones/code.svg"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Portfólio</title>
+  </head>
+  <body>
+    <nav class="container" aria-label="Navegação principal">
+      <ul data-anime="200" class="fadeInDown nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <header id="sobre" class="container">
+      <img
+        data-anime="400"
+        class="fadeInLeft"
+        src="./assets/img/fotos/Everton-img.jpg"
+        alt="Foto de perfil"
+      />
+      <div class="apresentacao">
+        <h1 data-anime="400" class="fadeInDown titulo">
+          Desenvolvedor Front-end Júnior
+        </h1>
+        <p data-anime="600" class="fadeInDown">
+          Estou em busca de oportunidades para aplicar meus conhecimentos e
+          crescer profissionalmente na área de desenvolvimento front-end. Estou
+          aberto a estágios, freelas ou projetos colaborativos que me permitam
+          desenvolver minhas habilidades e contribuir para projetos
+          interessantes.
+        </p>
+      </div>
+    </header>
+    <main>
+      <section id="projetos" class="container-projetos">
+        <h2 data-anime="700" class="fadeInDown">Meus Projetos</h2>
+        <div class="card-container">
+          <div data-anime="800" class="fadeInDown card">
+            <a href="https://bikcraft-eight-inky.vercel.app" target="_blank">
+              <img src="./assets/img/fotos/Bikecraft-img.png" alt="Bikecraft" />
+            </a>
+            <h3>Bikecraft</h3>
+            <p>
+              Um site responsivo construído com HTML, CSS e JavaScript,
+              destacando minhas habilidades e paixão pelo desenvolvimento web.
+            </p>
+          </div>
+          <div data-anime="800" class="fadeInDown card">
+            <a href="https://nlw-connect-sable.vercel.app" target="_blank">
+              <img
+                src="./assets/img/fotos/CodeCraft-img.png"
+                alt="Nlw Connect"
+              />
+            </a>
+            <h3>Nlw Connect</h3>
+            <p>
+              Site responsivo para inscrição e indicação de eventos,
+              desenvolvido com HTML, CSS e JavaScript para uma interface moderna
+              e interativa.
+            </p>
+          </div>
+          <div data-anime="800" class="fadeInDown card">
+            <a href="https://evertonsantosdev.vercel.app" target="_blank">
+              <img src="./assets/img/fotos/Portfólio-img.png" alt="Portfólio" />
+            </a>
+            <h3>Portfólio</h3>
+            <p>Portfólio desenvolvido durante o curso da Origamid.</p>
+          </div>
+          <div data-anime="800" class="fadeInDown card">
+            <img src="./assets/img/fotos/bg-projetos.png" alt="Em construção" />
+            <h3>Em construção...</h3>
+            <p>
+              Este projeto está em construção... ou melhor, procrastinando com
+              estilo.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="habilidades" class="container-habilidades">
+        <h3 data-anime="700" class="fadeInDown">Habilidades Técnicas</h3>
+        <div class="card-habilidades">
+          <div data-anime="800" class="habilidades fadeInDown">
+            <img src="./assets/img/icones/html5.svg" alt="HTML5" />
+            <h4>HTML5</h4>
+            <p>Estruturação semântica e acessível de páginas web.</p>
+          </div>
+          <div data-anime="800" class="habilidades fadeInDown">
+            <img src="./assets/img/icones/css3.svg" alt="CSS3" />
+            <h4>CSS3</h4>
+            <p>Estilização e design responsivo para diversas telas.</p>
+          </div>
+          <div data-anime="800" class="habilidades fadeInDown">
+            <img src="./assets/img/icones/javaScript.svg" alt="JavaScript" />
+            <h4>JavaScript</h4>
+            <p>Interatividade e manipulação dinâmica do DOM.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contato" class="footer-container">
+      <h3 data-anime="700" class="fadeInDown">
+        Contato para Oportunidades Profissionais
+      </h3>
+
+      <div class="contato-container">
+        <div data-anime="800" class="contato fadeInDown">
+          <img src="./assets/img/icones/email.svg" alt="Ícone de e-mail" />
+          <h4>E-mail:</h4>
+          <a href="mailto:contatoevertonsantoss@gmail.com" target="_blank">
+            contatoevertonsantoss@gmail.com
+          </a>
+        </div>
+        <div data-anime="800" class="contato fadeInDown">
+          <img src="./assets/img/icones/linkedIn.svg" alt="Ícone do LinkedIn" />
+          <h4>Conecte-se comigo:</h4>
+          <a
+            href="https://www.linkedin.com/in/éverton-santos-1993a726a/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </div>
+        <div data-anime="800" class="contato fadeInDown">
+          <img src="assets/img/icones/github.svg" alt="Ícone do GitHub" />
+          <h4>Veja meus projetos:</h4>
+          <a href="https://github.com/evertonsantoos" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="./src/js/plugins/simple-anime.js"></script>
+    <script type="module" src="./src/js/script.js"></script>
+  </body>
+</html>
